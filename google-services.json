@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "872955044222",
+    "project_id": "otpauth-8576c",
+    "storage_bucket": "otpauth-8576c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872955044222:android:a7cacb9e0f6b6259c0532f",
+        "android_client_info": {
+          "package_name": "com.amanrazakhan.mobileauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAueiEIDb1OD4PwKEJuB-zFeFJIj8gWvoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

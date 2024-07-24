@@ -2,6 +2,8 @@
   "expo": {
     "name": "mobileauth",
     "slug": "mobileauth",
+    "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
+
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +17,20 @@
       "supportsTablet": true
     },
     "android": {
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amanrazakhan.mobileauth"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23e02e49-8dc7-4341-b951-8dbff89684f0"
+      }
     }
   }
 }
